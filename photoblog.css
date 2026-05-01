@@ -1,7 +1,18 @@
+body {
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #c5eab7;
+    padding: 2px;
+}
+
 nav{ font-size: 120%;
 font-weight: bold;
 padding: 0px;
-text-align: center;}
+text-align: center;
+background-color: #b6faf8;}
 
 nav a{text-decoration: none;}
 
@@ -29,6 +40,11 @@ nav a:hover {
     color:#A52A2A;
 }
 
+main{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 #habitat{
     text-align: center;
     text-decoration: none;
@@ -48,11 +64,30 @@ nav a:hover {
 section{
         margin-left: 1em;
         margin-right: 1em;
+        width: 500px
 }
+
+section ul{
+    width: 500px
+}
+
 .wildlife{
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         flex: 1;
+}
+
+.conservation{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex: 1;
+        justify-content: center;
+}
+
+.id{
+    width: 100px;
 }
 
 footer{font-size: 75%;
@@ -61,3 +96,8 @@ text-align: center;
 font-family: Georgia, 'Times New Roman', serif;
 padding: 2em;
 background-color: #FFFFFF;}
+
+form{display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
